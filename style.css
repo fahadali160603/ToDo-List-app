@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(135deg, lightblue, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+.container h1{
+    color: blueviolet;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    outline: none;
+    font-size: 19px;
+    
+}
+
+button{
+    width: 60px;
+    height: 42px;
+    background: linear-gradient(90deg, lightblue, purple);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 10px;
+
+    
+}
+
+.text ul{
+    position: relative;
+    background: linear-gradient(90deg, lightblue, purple);
+    color: black;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
